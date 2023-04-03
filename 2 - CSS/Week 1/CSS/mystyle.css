@@ -8,23 +8,27 @@ body {
     
     
     }
+    aside {
+        width: 30%;
+        padding-left: 15px;
+        margin-left: 15px;
+        float: right;
+        font-style: italic;
+        background-color: lightcoral;
+        color: aliceblue;
+    }
     
-    h1,h2 {
+    h1, h2 {
         color: purple;
         margin-bottom: 20px;
     }
     
     p {
-        color: plum;
+        color: lightgrey;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 16px;
     }
-    img {
-        display:block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 30%;
-    }
+    
     ul, li {
         color: #2222224b;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
