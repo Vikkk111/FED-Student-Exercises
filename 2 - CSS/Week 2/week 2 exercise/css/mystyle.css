@@ -1,0 +1,65 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the navbar */
+  nav {
+    background-color: #ea2121;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 80px;
+    margin-right: 20px;
+  }
+  
+  .company-name {
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .nav-links li {
+    margin-right: 40px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: double;
+    color:wheat;
+  }
+  
+  
+  h1 {
+    padding: 20px;
+    font-size: 40px;
+    color: #ea2121;
+  }
+
+  @media (max-width: 767px) {
+    width: 100px;  
+    height: 30px; 
+  }
+
+
+  @media (min-width: 768px) {
+
+  }
