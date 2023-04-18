@@ -19,7 +19,7 @@ body, ul {
   }
   
   .logo img {
-    height: 80px;
+    height: 40px;
     margin-right: 20px;
   }
   
@@ -39,7 +39,7 @@ body, ul {
   
   .nav-links a {
     color: #fff;
-    text-decoration: none;
+    text-decoration: solid;
   }
   
   .nav-links a:hover {
@@ -54,12 +54,4 @@ body, ul {
     color: #ea2121;
   }
 
-  @media (max-width: 767px) {
-    width: 100px;  
-    height: 30px; 
-  }
-
-
-  @media (min-width: 768px) {
-
-  }
+  
